@@ -1,5 +1,5 @@
 /*tamanho padrão para tablets*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .header-black ul {
         display: none;
     }
