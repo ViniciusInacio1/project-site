@@ -3,9 +3,47 @@
     .header-black ul {
         display: none;
     }
+    #logo{
+        margin-top: 40px;
+    }
 }
 
 /*tamanho padrão para smartphones*/
 @media only screen and (max-width: 480px) {
-
+    .header-black ul, #menu {
+        display: none;
+    }
+    #logo{
+        left: 32%;
+        margin-top: 40px;
+    }
+    #btn-bars, #btn-search {
+        color: #fff;
+        font-size: 22px;
+        position: absolute;
+        top: 4px;
+        background: none;
+        border: none;
+        display: block;
+    }
+    #btn-bars{
+        left:0;
+    }
+    #btn-search{
+        right: 0;
+    }
+    #banner{
+        height: 317px;
+        background-size: cover;
+        background-position: 0;
+        text-align: center;
+    }
+    #banner h1{
+        top:180px;
+        font-size: 48px;
+        left: 0;
+    }
+    #banner h1 small{
+        font-size: 22px;
+    }
 }

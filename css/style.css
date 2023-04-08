@@ -90,7 +90,7 @@ header .header-black li.clube-16 {
 }
 #logo{
    position: absolute;
-   top: -20px;
+   top: 35px;
    z-index: 3;
 }
 #menu{
@@ -395,4 +395,7 @@ footer .list-socials a{
 footer .list-socials li{
    display: inline-block;
    margin: 0 3px;
+}
+#btn-bars, #btn-search{
+   display: none;
 }
